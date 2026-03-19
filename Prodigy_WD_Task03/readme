@@ -1,1 +1,44 @@
-Prodigy
+# 🎮 Tic-Tac-Toe Web Application
+
+A simple and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript.  
+This project focuses on implementing core game logic, basic AI, and dynamic UI updates.
+
+---
+
+## 🚀 Features
+
+- 🧑‍🤝‍🧑 Pass & Play (2 Player Mode)
+- 🤖 Play with AI (basic logic: win → block → random)
+- 🏆 Winning condition detection
+- 🔄 Game state tracking (Ongoing / Win / Draw)
+- ✨ Winning cell highlight
+- 🎯 Interactive UI with hover effects
+- 🔁 Restart functionality
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML  
+- CSS  
+- JavaScript  
+
+---
+
+## 🧠 How It Works
+
+- The board is stored as an array of 9 elements.
+- Each move updates both:
+  - the **UI (DOM)**
+  - the **internal game state**
+- After every move:
+  - Winning conditions are checked
+  - Game state is updated (WIN / DRAW / ONGOING)
+- In AI mode:
+  - AI first tries to **win**
+  - Then tries to **block the player**
+  - Otherwise selects a **random move**
+
+---
+
+## 📂 Project Structure
