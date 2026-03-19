@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #eef2ff, #fdf4ff);
+  color: #1f2937;
+}
+
+/* NAVBAR */
+nav {
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px 30px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #7c3aed;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #7c3aed;
+  color: white;
+}
+
+/* HOME */
+.home {
+  width: 90%;
+  margin: 40px auto;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.home-text h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.home-text span {
+  color: #7c3aed;
+}
+
+.home-text p {
+  margin-top: 10px;
+  color: #6b7280;
+}
+
+.home-text button {
+  margin-top: 25px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #7c3aed, #ec4899);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-text button:hover {
+  transform: scale(1.05);
+}
+
+/* IMAGE */
+.home-img img {
+  width: 260px;
+  border-radius: 30px;
+  transform: rotate(3deg);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* ABOUT */
+.about {
+  width: 90%;
+  margin: 40px auto;
+  padding: 50px;
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(8px);
+  border-radius: 30px;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.about p {
+  max-width: 700px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.info p {
+  margin: 8px 0;
+}
+
+/* PROJECTS */
+.projects {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.projects h2 {
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background: white;
+  border-radius: 25px;
+  padding: 25px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  border-left: 6px solid #7c3aed;
+}
+
+.project-card:hover {
+  transform: translateX(10px);
+  background: #faf5ff;
+}
+
+/* CONTACT */
+.contact {
+  width: 90%;
+  margin: 40px auto 80px;
+  padding: 50px;
+  background: linear-gradient(135deg, #7c3aed, #ec4899);
+  color: white;
+  border-radius: 30px;
+}
+
+.contact p {
+  margin-top: 8px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

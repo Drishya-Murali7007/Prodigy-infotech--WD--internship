@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+ 
+  <nav>
+    <h2 class="logo">MyPortfolio</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+ 
+  <section id="home" class="home">
+    <div class="home-text">
+      <h1>Hello, I'm <span>Hrijul Bhardwaj  </span></h1>
+      <p>An Aspiring Software Developer  </p>
+      <button onclick="scrollToSection('projects')">View Projects</button>
+    </div>
+
+    <div class="home-img">
+      <img src="/portfolio/profile.jpeg" alt="Profile Photo">
+    </div>
+  </section>
+ 
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a B.Tech Computer Science Engineering student with a strong interest in software development and emerging technologies. I enjoy solving problems, writing clean code, and continuously improving my technical skills.
+      
+      My goal is to build impactful and scalable tech solutions while growing as a software professional. I am always open to learning, collaboration, and new opportunities.
+    </p>
+
+    <div class="info">
+      <p><strong>Education:</strong> K R Mangalam University</p>
+      <p><strong>Skills:</strong> HTML, CSS, JavaScript, Python , Machine Learning ,</p>
+      <p><strong>Experience:</strong> Beginner / Projects-based</p>
+    </div>
+  </section>
+ 
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Stopwatch App</h3>
+      <p>A functional stopwatch using JavaScript.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Tic Tac Toe Game</h3>
+      <p>Interactive game with AI and pass & play mode.</p>
+    </div>
+    <div class="project-card">
+      <h3>Calorie Counter</h3>
+      <p>A simple calorie counter app using Python.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Weather Data Visualiser </h3>
+      <p>  loads real weather data from a CSV file, cleans it, performs statistical analysis, and generates multiple visualizations.</p>
+    </div>
+     <div class="project-card">
+      <h3>Gradebook Analyser </h3>
+      <p> A simple gradebook analyser and grading system using python</p>
+    </div>
+      
+
+
+  </section>
+ 
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: hrijul07@gmail.com</p>
+    <p>LinkedIn: https://www.linkedin.com/in/hrijul-bhardwaj-04b65839b/ </p>
+  </section>
+
+  
+</body>
+</html>
